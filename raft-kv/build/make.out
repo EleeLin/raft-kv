@@ -1,0 +1,51 @@
+[  3%] Building CXX object CMakeFiles/raft-kv++.dir/common/bytebuffer.cpp.o
+[  7%] Building CXX object CMakeFiles/raft-kv++.dir/common/random_device.cpp.o
+[ 11%] Building CXX object CMakeFiles/raft-kv++.dir/common/status.cpp.o
+[ 15%] Building CXX object CMakeFiles/raft-kv++.dir/raft/proto.cpp.o
+[ 19%] Building CXX object CMakeFiles/raft-kv++.dir/raft/raft.cpp.o
+[ 23%] Building CXX object CMakeFiles/raft-kv++.dir/raft/storage.cpp.o
+[ 26%] Building CXX object CMakeFiles/raft-kv++.dir/raft/config.cpp.o
+[ 30%] Building CXX object CMakeFiles/raft-kv++.dir/raft/node.cpp.o
+/Users/yanshunli/Documents/raft-cpp/raft-kv/raft/config.cpp:1:10: fatal error: 'raft-kv/raft/config.h' file not found
+#include <raft-kv/raft/config.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/raft-kv++.dir/raft/config.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/Users/yanshunli/Documents/raft-cpp/raft-kv/raft/node.cpp:1:10: fatal error: 'raft-kv/raft/node.h' file not found
+#include <raft-kv/raft/node.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+/Users/yanshunli/Documents/raft-cpp/raft-kv/raft/raft.cpp:1:10: fatal error: 'boost/algorithm/string.hpp' file not found
+#include <boost/algorithm/string.hpp>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/yanshunli/Documents/raft-cpp/raft-kv/raft/proto.cpp:2:10: fatal error: 'msgpack.hpp' file not found
+#include <msgpack.hpp>
+         ^~~~~~~~~~~~~
+1 error generated.
+1 error generated.
+make[2]: *** [CMakeFiles/raft-kv++.dir/raft/node.cpp.o] Error 1
+make[2]: *** [CMakeFiles/raft-kv++.dir/raft/proto.cpp.o] Error 1
+/Users/yanshunli/Documents/raft-cpp/raft-kv/common/random_device.cpp:1:10: fatal error: 'raft-kv/common/random_device.h' file not found
+#include <raft-kv/common/random_device.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/yanshunli/Documents/raft-cpp/raft-kv/raft/storage.cpp:1:10: fatal error: 'raft-kv/raft/storage.h' file not found
+#include <raft-kv/raft/storage.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+1 error generated.
+make[2]: *** [CMakeFiles/raft-kv++.dir/raft/raft.cpp.o] Error 1
+make[2]: *** [CMakeFiles/raft-kv++.dir/common/random_device.cpp.o] Error 1
+make[2]: *** [CMakeFiles/raft-kv++.dir/raft/storage.cpp.o] Error 1
+/Users/yanshunli/Documents/raft-cpp/raft-kv/common/bytebuffer.cpp:3:10: fatal error: 'raft-kv/common/bytebuffer.h' file not found
+#include <raft-kv/common/bytebuffer.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/raft-kv++.dir/common/bytebuffer.cpp.o] Error 1
+/Users/yanshunli/Documents/raft-cpp/raft-kv/common/status.cpp:5:10: fatal error: 'raft-kv/common/status.h' file not found
+#include <raft-kv/common/status.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/raft-kv++.dir/common/status.cpp.o] Error 1
+make[1]: *** [CMakeFiles/raft-kv++.dir/all] Error 2
+make: *** [all] Error 2
